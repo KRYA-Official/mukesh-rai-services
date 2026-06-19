@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <title>आपका KRYA टिकट</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #f9f9f9; padding: 20px; text-align: center; }
+        .container { max-width: 400px; margin: auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border: 2px solid #ffd700; }
+        h2 { color: #2e7d32; }
+        .ticket-box { background: #2e7d32; color: #ffd700; padding: 20px; font-size: 28px; font-weight: bold; border-radius: 10px; margin: 20px 0; letter-spacing: 2px; }
+        .btn { display: block; width: 100%; padding: 15px; background-color: #25D366; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>🎁 आपका लकी टिकट</h2>
+    <p>इसे कॉपी करें और व्हाट्सएप पर भेजें</p>
+    
+    <div class="ticket-box" id="ticketNumber">---</div>
+    
+    <button class="btn" onclick="shareTicket()">व्हाट्सएप पर शेयर करें</button>
+</div>
+
+<script>
+    // यूनिक टिकट जनरेटर
+    function generateTicket() {
+        var randomNum = Math.floor(100000 + Math.random() * 900000);
+        document.getElementById("ticketNumber").innerText = "KRYA-" + randomNum;
+    }
+    
+    // टिकट के साथ व्हाट्सएप शेयरिंग
+    function shareTicket() {
+        var ticket = document.getElementById("ticketNumber").innerText;
+        var message = "नमस्ते मुकेश जी, मेरा लकी टिकट नंबर " + ticket + " है।";
+        var phone = "916379403821";
+        window.open("https://wa.me/" + phone + "?text=" + encodeURIComponent(message), '_blank');
+    }
+
+    // पेज लोड होते ही टिकट बनाएं
+    window.onload = generateTicket;
+</script>
+
+</body>
+</html>
