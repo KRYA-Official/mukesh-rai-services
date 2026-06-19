@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>मुकेश राय | KRYA Digital उद्यमी</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; padding: 20px; background-color: #f9f9f9; text-align: center; color: #333; }
+        .container { max-width: 600px; margin: auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border-top: 5px solid #2e7d32; }
+        h1 { color: #2e7d32; margin-bottom: 5px; }
+        .subtitle { font-weight: bold; color: #555; margin-bottom: 20px; }
+        .service-card { border: 1px solid #eee; padding: 20px; margin: 15px 0; border-radius: 10px; background: #fff; transition: 0.3s; }
+        .service-card:hover { border-color: #2e7d32; }
+        .btn { display: inline-block; background: #2e7d32; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 20px; }
+        .footer-note { margin-top: 25px; font-size: 0.9em; color: #777; font-style: italic; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>मुकेश राय</h1>
+    <p class="subtitle">संस्थापक, KRYA Digital</p>
+    <p>नमस्ते! मैं बांका, बिहार से एक डिजिटल उद्यमी हूँ। मेरा मिशन अपनी स्किल्स के जरिए आपकी डिजिटल समस्याओं का 100% ईमानदार और सुरक्षित समाधान देना है।</p>
+    
+    <div class="service-card">
+        <h3>🚀 ब्लॉग और वेबसाइट सेटअप</h3>
+        <p>प्रोफेशनल और फास्ट वेबसाइट/ब्लॉगिंग प्लेटफॉर्म का निर्माण।</p>
+    </div>
+    <div class="service-card">
+        <h3>💡 डिजिटल स्किल परामर्श</h3>
+        <p>SEO, UI/UX डिजाइन और डिजिटल ग्रोथ के लिए विशेष सलाह।</p>
+    </div>
+
+    <!-- अपडेटेड WhatsApp लिंक -->
+    <a href="https://wa.me/916379403821" class="btn">मुझसे अभी संपर्क करें</a>
+
+    <p class="footer-note">मेरा काम पूर्णतः कानूनी और ईमानदार है - मुकेश राय, बांका</p>
+</div>
+
+</body>
+</html>
+
